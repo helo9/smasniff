@@ -1,0 +1,21 @@
+[project]
+name = "smasniff"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "construct"
+]
+
+[project.urls]
+Homepage = "https://github.com/helo9/smasniff"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
