@@ -2,7 +2,7 @@
 
 The module provides functionality to decode raw telegrams from SMA Speedwire devices, see https://www.sma.de/fileadmin/content/global/Partner/Documents/SMA_Labs/EMETER-Protokoll-TI-en-10.pdf
 """
-from construct import ExprAdapter, Pointer, Const, Bytes, Int16ub, Struct, obj_
+from construct import ExprAdapter, Pointer, Const, Int16ub, Struct, obj_
 
 
 def decode_telegram(telegram_raw: bytes) -> dict[str, any]:
