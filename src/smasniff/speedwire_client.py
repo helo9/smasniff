@@ -1,5 +1,4 @@
-from smasniff.multicast_client import open_socket
-from smasniff.speedwire import decode_telegram
+from . import open_socket, decode_telegram
 
 
 SPEEDWIRE_MULTICAST_IP = "239.12.255.254"
