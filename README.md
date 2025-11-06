@@ -8,7 +8,7 @@ A python module to collect SMA Speedwire data from your local network.
 <summary>Using uv</summary>
 
 ```bash
-uv run --with spwdump
+uv run --from https://github.com/helo9/smasniff.git spwdump
 ```
 
 </details>
@@ -17,7 +17,7 @@ uv run --with spwdump
 <summary>Using pip</summary>
 
 ```bash
-pip install -e .
+pip install https://github.com/helo9/smasniff.git
 spwdump
 ```
 
